@@ -1,3 +1,19 @@
+# Forked repo notes
+** NOTE **
+This repo was forked from https://github.com/terraform-aws-modules/terraform-aws-redshift
+
+Master is currently based off of upstream release v3.3.0.
+
+To update this fork to a newer upstream release:
+
+1. `git fetch upstream` 
+2. `git checkout $upstream_tag`
+3. `git checkout -b penn_features_$upstream_tag`
+4. commit your changes
+5. Update this README to reflect the new upstream version, and update CHANGELOG.md with a description of your changes.
+6. Open a PR
+7. Merge the PR once approved and then tag the merge commit with the desired release version. (e.g. p3.3.0)
+
 # AWS Redshift Terraform module
 
 Terraform module which creates Redshift resources on AWS.
