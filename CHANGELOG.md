@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 <a name="unreleased"></a>
 ## [Unreleased]
 
+<a name="p3.3.0-1"></a>
+## [p3.3.0-1] - 2022-08-01
+
+- feat: Add outputs with `this_` prefixes back in to support backwards compatibility until and references to this module's outputs can be updated accordingly. (SRE-4566)
+- docs: Update readme with process for maintaining this forked version of the module.
 
 
 <a name="v3.3.0"></a>
